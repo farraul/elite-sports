@@ -16,6 +16,7 @@ const Header = () => {
                     <img className="logo" src={logo} alt="logo" onClick={() => go_to_the_link("/")} />
                 </div>
                 <div className="header-menu">
+                <span className="header-menu-links" onClick={() => go_to_the_link("/")}>Inicio</span>
                 <span className="header-menu-links" onClick={() => go_to_the_link("equipos")}>Equipos</span>
                 </div>
             </div>

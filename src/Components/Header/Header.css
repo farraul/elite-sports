@@ -2,6 +2,13 @@
     width: 120px;
     height: auto;
 }
+.header-menu {
+    width: 8em;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    font-family: sans-serif;
+}
 .header-container {
     display: flex;
     align-items: center;
