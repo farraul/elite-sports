@@ -17,16 +17,21 @@ const Teams = () => {
     }
 
     return (
-        <div>
+        <div className='teams-container'>
             {teams[0] &&
 
                 <div className='teams-container-table'>
+                    <div className='teams-container-table-headers'>
+                        <div className='teams-container-table-unique-id'>ID</div>
+                        <div className='teams-container-table-unique-name'>Nombre</div>
+                        <div className='teams-container-table-unique-region'>Región</div>
 
+                    </div>
 
 
                     {teams.map((league) =>
                         <div key={league.id} className='teams-container-table-unique'>
-                            <div className='teams-container-table-unique-email'>
+                            <div className='teams-container-table-unique-id'>
                                 {league.id}
                             </div>
                             <div className='teams-container-table-unique-name'>
@@ -39,7 +44,7 @@ const Teams = () => {
                     )}
                 </div>
             }
-
+            
         </div>
     )
 };
