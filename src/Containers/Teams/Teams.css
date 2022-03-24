@@ -1,0 +1,36 @@
+.teams-container-table {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: fit-content;
+    margin: auto;
+    background-color: #e0e0e0;
+    font-size: 1em; 
+    margin-top: 3em;
+}
+
+
+.teams-container-table-unique {
+    width: 100%;
+    padding: 0.5em;
+    max-width: 25em;
+    border-bottom: 1px solid gray;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.teams-container-table-unique-email {
+    width: 4em;
+}
+.teams-container-table-unique-name {
+    width: 13em;
+}
+.teams-container-table-unique-region {
+    width: 8em;
+}
+
+@media (max-width: 600px) {
+    .teams-container-table {
+        font-size: 0.7em;
+    }
+
+}
