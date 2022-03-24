@@ -1,0 +1,12 @@
+.logo {
+    width: 120px;
+    height: auto;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(192, 192, 192);
+    padding: 0em 3em;
+    height: 4em;
+}
