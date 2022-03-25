@@ -12,7 +12,7 @@
     align-items: center;
     width: fit-content;
     margin: auto;
-    background-color: #e0e0e0;
+    background-color: #ffffff;
     font-size: 1em; 
 }
 .teams-container-table-headers{
@@ -21,11 +21,10 @@
     width: 100%;
     padding: 0.5em;
     max-width: 25em;
-    background-color: rgb(38, 118, 184);
-    color: white;
+    background-color: rgb(221, 221, 221);
+    color: rgb(0, 0, 0);
     font-weight:700;
 }
-
 
 .teams-container-table-unique {
     width: 100%;
@@ -48,10 +47,34 @@
     width: 2em;
     cursor: pointer;
 }
+.teams-container-table-switch-color {
+    padding: 0.5em 0em;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 6em;
+    bottom: 4px;
+    right: 4px;
+    position: absolute;
+    font-weight: 700;
+    border-radius: 0.1em;
+}
+.header-background-color{
+background-color: black;
+color:rgb(255, 255, 255);
+}
+
+.header-background-color-second{
+    background-color: rgb(243, 243, 243);
+    color:rgb(0, 0, 0);
+    }
+.header-background-color-body{
+    background-color: rgb(37, 37, 37);
+    color:rgb(255, 255, 255);
+    }
 
 @media (max-width: 600px) {
     .teams-container-table {
         font-size: 0.7em;
     }
-
 }
