@@ -1,21 +1,10 @@
-import logo from '../../assets/images/Logo.svg';
-import { useNavigate } from 'react-router-dom';
 import './ModalInfo.css';
 
 const ModalInfo = (props) => {
-
-    const history = useNavigate();
-    const go_to_the_link = (url) => {
-        history(url);
-    }
-
+    
     const hideModalInfo = () => {
         props.setShowModalInfo(false)
     }
-
-    console.log("props", props)
-    let dataModal = props.dataModal;
-    console.log("propsdata", dataModal)
 
     return (
         <div className='modal-info-container'>

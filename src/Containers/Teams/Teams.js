@@ -80,8 +80,6 @@ const Teams = () => {
             {showModalInfo &&
                 <ModalInfo dataModal={dataModal} setShowModalInfo={setShowModalInfo} />
             }
-
-
         </div>
     )
 };
