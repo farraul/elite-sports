@@ -17,3 +17,6 @@
     padding: 0em 3em;
     height: 4em;
 }
+.header-menu-links{
+    cursor: pointer;
+}
