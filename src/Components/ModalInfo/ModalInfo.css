@@ -1,0 +1,38 @@
+.modal-info-container {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    background-color: #000000d9;
+    top: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-info-container-info {
+    border: 1px solid;
+    width: 100%;
+    max-width: 22em;
+    background-color: #3f81ac;
+    padding: 0.5em 0em 2em 0em;
+} 
+.modal-info-container-info-close {
+    text-align: right;
+    padding: 0em 1em;
+    font-size: 1.5em;
+}
+.modal-info-container-info-data-table {
+    margin: auto;
+    text-align: left;
+    font-size: 1.1em;
+}
+.modal-info-container-info-data-table-name {
+    width: 6em;
+}
+.modal-info-background-color-s {
+ border-bottom: solid 1px grey;
+}
+.modal-info-container-info-close-span {
+    cursor: pointer;
+}
