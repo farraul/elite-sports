@@ -11,7 +11,7 @@ const ModalInfo = (props) => {
             <div className='modal-info-container-info'>
                 <div className='modal-info-container-info-close'><span  onClick={hideModalInfo} className="modal-info-container-info-close-span">x</span></div>
                 <div className='modal-info-container-info-data'>
-                    <table class="modal-info-container-info-data-table">
+                    <table className="modal-info-container-info-data-table">
                         <tr className='modal-info-background-color-s'>
                             <td className='modal-info-container-info-data-table-name'>ID:</td>
                             <td>{dataModal.id}</td>

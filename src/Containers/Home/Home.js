@@ -9,8 +9,8 @@ const Home = () => {
         history(url);
     }
     return (
-        <div class="home-container">
-            <button class="home-button" onClick={() => go_to_the_link("equipos")}>Ver equipos</button>
+        <div className="home-container">
+            <button className="home-button" onClick={() => go_to_the_link("equipos")}>Ver equipos</button>
         </div>
     )
 };
