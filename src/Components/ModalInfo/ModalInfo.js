@@ -11,20 +11,20 @@ const ModalInfo = (props) => {
             <div className='modal-info-container-info'>
                 <div className='modal-info-container-info-close'><span  onClick={hideModalInfo} className="modal-info-container-info-close-span">x</span></div>
                 <div className='modal-info-container-info-data'>
-                    <table className="modal-info-container-info-data-table">
-                        <tr className='modal-info-background-color-s'>
-                            <td className='modal-info-container-info-data-table-name'>ID:</td>
-                            <td>{dataModal.id}</td>
-                        </tr>
-                        <tr className='modal-info-background-color-s'>
-                            <td className='modal-info-container-info-data-table-name'>Nombre:</td>
-                            <td>{dataModal.name}</td>
-                        </tr>
-                        <tr className='modal-info-background-color-s'>
-                            <td className='modal-info-container-info-data-table-name'>Región:</td>
-                            <td>{dataModal.region}</td>
-                        </tr>
-                    </table>
+                    <div className="modal-info-container-info-data-table">
+                        <div className='modal-info-background-color-s'>
+                            <div className='modal-info-container-info-data-table-name'>ID:</div>
+                            <div>{dataModal.id}</div>
+                        </div>
+                        <div className='modal-info-background-color-s'>
+                            <div className='modal-info-container-info-data-table-name'>Nombre:</div>
+                            <div>{dataModal.name}</div>
+                        </div>
+                        <div className='modal-info-background-color-s'>
+                            <div className='modal-info-container-info-data-table-name'>Región:</div>
+                            <div>{dataModal.region}</div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

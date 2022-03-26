@@ -29,9 +29,11 @@
 .modal-info-container-info-data-table-name {
     width: 6em;
 }
-.modal-info-background-color-s {
- border-bottom: solid 1px grey;
-}
+
 .modal-info-container-info-close-span {
     cursor: pointer;
+}
+.modal-info-background-color-s {
+    padding: 0.3em 1em;
+    display: flex;
 }
