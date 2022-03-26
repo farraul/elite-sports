@@ -16,7 +16,6 @@ const Teams = () => {
     const takeData = async () => {
         let res = await axios.get("http://api.football-api.com/2.0/competitions?Authorization=565ec012251f932ea4000001fa542ae9d994470e73fdb314a8a56d76");
         setTeams(res.data);
-        console.table(teams);
     }
 
     const seePopUp = (league) => {
