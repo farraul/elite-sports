@@ -1,7 +1,7 @@
 import './ModalInfo.css';
 
 const ModalInfo = (props) => {
-    
+    const dataModal=props.dataModal;
     const hideModalInfo = () => {
         props.setShowModalInfo(false)
     }
