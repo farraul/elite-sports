@@ -65,11 +65,9 @@ const Teams = () => {
                             <div className='teams-container-table-unique-region'>
                                 {league.region}
                             </div>
-
                             <div onClick={() => seePopUp(league)} className='teams-container-table-unique-see'>
                                 🔎
                             </div>
-
                         </div>
                     )}
                 </div>

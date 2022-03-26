@@ -28,7 +28,6 @@ const ModalInfo = (props) => {
                 </div>
             </div>
         </div>
-
     )
 };
 

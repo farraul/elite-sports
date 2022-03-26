@@ -72,7 +72,6 @@ color:rgb(255, 255, 255);
     background-color: rgb(37, 37, 37);
     color:rgb(255, 255, 255);
     }
-
 @media (max-width: 600px) {
     .teams-container-table {
         font-size: 0.7em;
