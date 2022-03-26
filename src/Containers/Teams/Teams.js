@@ -22,7 +22,6 @@ const Teams = () => {
     const seePopUp = (league) => {
         setShowModalInfo(true);
         setDataModal(league);
-        console.log("xx", dataModal);
     }
 
     const changeColor = () => {
